@@ -1,4 +1,6 @@
 import React from 'react'
+import {StyledEscena} from './styledEscena';
+
 
 /**EJERCICIO 1 */
 //export const Escena = () => <p>"El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial"</p>;
@@ -7,6 +9,6 @@ import React from 'react'
 
 export function Escena({texto}) {
     return (
-        <p>{texto}</p>
+        <StyledEscena>{texto}</StyledEscena>
     );
 }
